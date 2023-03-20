@@ -34,8 +34,8 @@ while True:
     print(counter, stamp,decs[0],decs[1],decs[2],decs[3])
     #counter = counter + 1
 
-    temp_0=decs[0]
-    temp_1=decs[1]
+    temp_0=float(decs[0])*9./5.+32.
+    temp_1=float(decs[1])*9./5.+32.
     batt = decs[2]
     rssi = decs[3]
 
